@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deforestation in Urban Areas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; }
+        body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+        header, footer { background: #2e7d32; color: white; padding: 1rem 2rem; text-align: center; }
+        nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; transition: color 0.3s ease; }
+        nav a:hover { text-decoration: underline; color: #a5d6a7; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1560184897-c8e3e2d56f5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover; height: 60vh; display: flex; align-items: center; justify-content: center; color: white; text-shadow: 1px 1px 6px rgba(0,0,0,0.7); animation: fadeIn 1.5s ease-in-out; }
+        .hero h1 { font-size: 3rem; max-width: 80%; text-align: center; }
+        .content { padding: 2rem; max-width: 1000px; margin: auto; animation: slideUp 1s ease-in-out; }
+        .content h2 { color: #2e7d32; margin-top: 2rem; }
+        .content p { line-height: 1.6; }
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+        .card { background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.3s ease; }
+        .card:hover { transform: translateY(-5px); }
+        .card h3 { color: #1b5e20; margin-bottom: 0.5rem; }
+        .card p { font-size: 0.95rem; }
+        footer p { margin: 0; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(40px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Urban Deforestation Awareness</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="tips.html">Tips</a>
+            <a href="report.html">Report</a>
+                    </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Protect Our Cities: Stop Urban Deforestation</h1>
+    </div>
+
+    <div class="content">
+        <h2>Why Urban Trees Matter</h2>
+        <p>Urban forests play a vital role in reducing air pollution, lowering temperatures, and improving the mental well-being of city dwellers. Yet, many of these trees are at risk due to construction and illegal cutting.</p>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>🌳 Cleaner Air</h3>
+                <p>Trees filter harmful pollutants and provide cleaner air for urban residents to breathe.</p>
+            </div>
+            <div class="card">
+                <h3>🔥 Climate Regulation</h3>
+                <p>Tree canopies cool cities by up to 10°C, helping fight the urban heat island effect.</p>
+            </div>
+            <div class="card">
+                <h3>🦉 Wildlife Habitat</h3>
+                <p>Urban trees offer sanctuary for birds, insects, and other small animals.</p>
+            </div>
+            <div class="card">
+                <h3>🛑 Community Action</h3>
+                <p>Join local efforts to protect urban green zones. Report illegal cutting and plant more trees.</p>
+            </div>
+        </div>
+
+        <h2>Get Involved</h2>
+        <p>Explore our website to learn more, take action, and be part of a greener urban future. Every voice and every tree counts.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Urban Deforestation Awareness. All rights reserved.</p>
+    </footer>
+</body>
+</html>
